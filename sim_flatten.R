@@ -314,7 +314,7 @@ p2 <- ggplot(data=err_T_dat, aes(x=n, y=err)) +
 p_err <- ggarrange(p1, p2, ncol = 2, nrow = 1, common.legend = T)
 p_err
 
-## this figure corresponds to Figure 1
+## this figure corresponds to Figure 2
 # ggsave("./figures/flatten_gom_err_dirichlet.png", plot=p_err, width=10, height=4.5)
 
 
