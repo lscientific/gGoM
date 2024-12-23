@@ -1,7 +1,7 @@
 # Supplementary Codes to paper ``Generalized Grade-of-Membership Estimation for High-dimensional Locally Dependent Data''
 
 ## Utility files
-- `gom.R` includes the proposed method 
+- `gom.R` includes the proposed method, with the pruning step and SPA
 - `gibbs_util.R` includes the Gibbs sampling utility functions for simulation I
 
 ## Simulation experiments
@@ -12,7 +12,7 @@
 
 ## Three real data applications
 - `hapmap.R`, `ANES.R`, `single cell.R` correspond to the three real data analyses
-- The pre-processed HapMap3 data can be downloaded from [https://figshare.com/s/9b4d5964af498d167e85]. and the raw data can be accessed from [https://www.broadinstitute.org/medical-and-population-genetics/hapmap-3]
+- The pre-processed HapMap3 data can be downloaded from [https://figshare.com/s/9b4d5964af498d167e85] and the raw data can be accessed from [https://www.broadinstitute.org/medical-and-population-genetics/hapmap-3]
 - The ANES 2022 pilot study data is downloaded from [https://electionstudies.org/data-center/]
 - The single cell data can be accessed by running
 ```
