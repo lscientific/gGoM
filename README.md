@@ -1,4 +1,4 @@
-# Supplementary Codes to paper [Generalized Grade-of-Membership Estimation for High-dimensional Locally Dependent Data](https://arxiv.org/pdf/2412.19796)
+# Supplementary Codes to paper 'Generalized Grade-of-Membership Estimation for High-dimensional Locally Dependent Data'
 
 ## Utility files
 - `gom.R` includes the proposed method, with the pruning step and SPA
